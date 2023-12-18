@@ -1,0 +1,88 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+h1 {
+    color: #0077cc;
+    text-align: center;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    border-bottom: 2px solid #0077cc;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+code {
+    background-color: #f0f0f0;
+    padding: 2px 4px;
+    border-radius: 4px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #333;
+}
+
+p {
+    color: #444;
+}
+
+a {
+    color: #0077cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Light Theme */
+body.light-theme {
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+code.light-theme {
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+h2.light-theme {
+    border-bottom: 2px solid #0077cc;
+}
+
+/* Dark Theme */
+body.dark-theme {
+    background-color: #333;
+    color: #fff;
+}
+
+code.dark-theme {
+    background-color: #444;
+    color: #fff;
+}
+
+h2.dark-theme {
+    border-bottom: 2px solid #66c2ff;
+}
+
+/* Toggle Theme Button */
+button {
+    background-color: #0077cc;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #005faa;
+}
